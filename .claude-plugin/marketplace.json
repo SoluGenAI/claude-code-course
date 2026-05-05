@@ -43,10 +43,10 @@
     {
       "name": "tamar-plugin",
       "source": "./tamar",
-      "description": "Tamar's plugin — fill in during the session.",
+      "description": "Explain the last N commits on a branch in bounded, engineer-audience format.",
       "author": { "name": "Tamar" },
       "category": "team",
-      "tags": []
+      "tags": ["git", "commits", "explanation"]
     }
   ]
 }

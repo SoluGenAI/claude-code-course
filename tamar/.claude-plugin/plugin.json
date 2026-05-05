@@ -1,4 +1,6 @@
 {
   "name": "tamar-plugin",
-  "description": "Tamar's plugin — fill in during the session."
+  "version": "0.1.0",
+  "description": "Explain the last N commits on a branch in bounded, engineer-audience format.",
+  "author": { "name": "Tamar" }
 }
