@@ -2,25 +2,12 @@
 
 ## Table of Contents
 
-- [About the Course](#about-the-course)
 - [Team Plugin Marketplace](#team-plugin-marketplace)
 - [Pre-work](#pre-work)
 - [Session 1 | Claude Code Fundamentals](#session-1--claude-code-fundamentals)
 - [Session 2 | Claude Ecosystem & Defining Team Workflows](#session-2--claude-ecosystem--defining-team-workflows)
 - [Session 3 | Mini-Hackathon](#session-3--mini-hackathon)
 - [Session 4 | Reset, Reflect, Publish](#session-4--reset-reflect-publish)
-
----
-
-## About the Course
-
-Four hands-on sessions that would align us all as to be Claude Code fluent, both individually and as a team.
-
-The course materials are structured markdown documents, which are the ideal format for maintaining Claude Code codebases. Getting used to this workflow of reading and maintaining these detailed markdowns, is an intentinoal part of the course.
-
-You're encouraged to literally have your hands-on Claude Code during each workshop, maintaining your thoughts and questions in the THOUGHTS_AND_QUESTIONS.md file in your subdir.
-
-Each participants will maintain his/her own subdir throughout the workshop, using Skills, Hooks, MCPs, Rules, and CLAUDE.md guidelines. 
 
 ---
 
