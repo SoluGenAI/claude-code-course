@@ -2,24 +2,36 @@
 
 ## Table of Contents
 
-- [About the Course](#about-the-course)
+- [Team Plugin Marketplace](#team-plugin-marketplace)
 - [Pre-work](#pre-work)
 - [Session 1 | Claude Code Fundamentals](#session-1--claude-code-fundamentals)
 - [Session 2 | Claude Ecosystem & Defining Team Workflows](#session-2--claude-ecosystem--defining-team-workflows)
 - [Session 3 | Mini-Hackathon](#session-3--mini-hackathon)
-- [Session 4 | Build Reviews](#session-4--build-reviews)
+- [Session 4 | Reset, Reflect, Publish](#session-4--reset-reflect-publish)
 
 ---
 
-## About the Course
+## Team Plugin Marketplace
 
-Four hands-on sessions that would align us all as to be Claude Code fluent, both individually and as a team.
+This repo doubles as the SoluGenAI team's Claude Code plugin marketplace. Each developer owns a subdir (`ariel/`, `eyal/`, `lior/`, `netanel/`, `tamar/`) containing their own plugin. The marketplace catalog lives at the repo root: `.claude-plugin/marketplace.json`.
 
-The course materials are structured markdown documents, which are the ideal format for maintaining Claude Code codebases. Getting used to this workflow of reading and maintaining these detailed markdowns, is an intentinoal part of the course.
+### Install a teammate's plugin
 
-You're encouraged to literally have your hands-on Claude Code during each workshop, maintaining your thoughts and questions in the THOUGHTS_AND_QUESTIONS.md file in your subdir.
+```
+/plugin marketplace add SoluGenAI/claude-code-course
+/plugin install lior-plugin@solugenai-team
+```
 
-Each participants will maintain his/her own subdir throughout the workshop, using Skills, Hooks, MCPs, Rules, and CLAUDE.md guidelines. 
+### Update an installed plugin after a teammate pushes changes
+
+```
+/plugin marketplace update solugenai-team
+/plugin update lior-plugin@solugenai-team
+```
+
+### Publishing your own plugin
+
+See `the_actual_content/session_4/PLUGIN_BUILD_GUIDE.md` for the step-by-step.
 
 ---
 
@@ -73,10 +85,18 @@ Development would be using the 'claude --worktrees' feature.
 
 ---
 
-## Session 4 — Build Reviews
+## Session 4 — Reset, Reflect, Publish
 
-Each participant gets 15 minutes to walk the team through their project: what you built, how you approached it, what instructions you gave Claude Code, what design decisions you made, what you learned along the way, what tools you added or sharpened along the way. and what you'd change. 
-This is a process review meant for learning from each other, not a code review.
+Two months passed between Session 3 and Session 4 — long enough that this final session is reframed away from in-flight chatbot review and toward a reset + plugin-publishing workshop:
+
+1. **Free Q&A and decompression.** What's been working, what's been frustrating, what's changed.
+2. **`/insights` round-robin.** Everyone runs the built-in `/insights` command and shares one surprising number, one expected number, and one workflow change they'll make.
+3. **Build & publish your plugin.** Each developer ships a Claude Code plugin in their own subdir, published to the team marketplace at the repo root, installable by every teammate with one command.
+4. **Wrap.** Live install demo, post-course cadence.
 
 ### Takeaways
-- Peer feedback, shared learnings, and a clear path for continued learning and team-sync best practices.
+- Each participant publishes a working plugin teammates can install.
+- Concrete data on personal Claude Code usage from `/insights`.
+- The course repo is now the team's living plugin marketplace.
+
+See `the_actual_content/session_4/00_SESSION_4_TALKING_POINTS.md` for the instructor script and `PLUGIN_BUILD_GUIDE.md` for the participant handout.

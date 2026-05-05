@@ -49,7 +49,7 @@ project-name/
 │   ├── config.py           # Pydantic Settings (YAML + env)
 │   ├── main.py
 │   ├── custom_types/       # All schemas and type definitions
-│   │   ├── api_schemas.py / db_models.py / llm_schemas.py / domain_types.py
+│   │   ├── api_schemas.py / db_models.py / llm_schemas.py
 │   └── services/
 ├── data/                   # raw/, processed/, etc.
 ├── frontend/               # React/Next.js (if applicable)
@@ -57,9 +57,13 @@ project-name/
 │   ├── unit/
 │   └── integration/
 ├── knowledge/
-│   ├── plans/
-│   ├── setup/
-│   └── changelogs/
+│   ├── arc/                # Architecture references, config file guides
+│   ├── plans/              # Implementation plans, design docs
+│   ├── specs/              # Business features and specifications (V1_SPECS.md, etc.)
+│   ├── screenshots/        # Saved screenshots for reference
+│   ├── troubleshooting/    # Known issues, fixes, gotchas (one file per domain)
+│   ├── setup/              # Environment setup, onboarding guides
+│   └── changelogs/         # CHANGELOG_{YY-MM-DD}.md files
 └── .claude/CLAUDE.md
 ```
 

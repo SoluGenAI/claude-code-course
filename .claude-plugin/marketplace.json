@@ -1,0 +1,52 @@
+{
+  "name": "solugenai-team",
+  "owner": {
+    "name": "SoluGenAI",
+    "email": "elad.l@solugen.ai"
+  },
+  "metadata": {
+    "description": "Claude Code plugins built by the SoluGenAI dev team during the Claude Code course."
+  },
+  "plugins": [
+    {
+      "name": "ariel-plugin",
+      "source": "./ariel",
+      "description": "Ariel's plugin — fill in during the session.",
+      "author": { "name": "Ariel" },
+      "category": "team",
+      "tags": []
+    },
+    {
+      "name": "eyal-plugin",
+      "source": "./eyal",
+      "description": "Eyal's plugin — fill in during the session.",
+      "author": { "name": "Eyal" },
+      "category": "team",
+      "tags": []
+    },
+    {
+      "name": "lior-plugin",
+      "source": "./lior",
+      "description": "Lior's plugin — fill in during the session.",
+      "author": { "name": "Lior" },
+      "category": "team",
+      "tags": []
+    },
+    {
+      "name": "netanel-plugin",
+      "source": "./netanel",
+      "description": "Netanel's plugin — fill in during the session.",
+      "author": { "name": "Netanel" },
+      "category": "team",
+      "tags": []
+    },
+    {
+      "name": "tamar-plugin",
+      "source": "./tamar",
+      "description": "Tamar's plugin — fill in during the session.",
+      "author": { "name": "Tamar" },
+      "category": "team",
+      "tags": []
+    }
+  ]
+}
